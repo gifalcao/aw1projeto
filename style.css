@@ -199,4 +199,45 @@ a {
         top: 10px;
         left: 270px;
         text-align: center;
-       }   
+       }       .menu input {
+        width: 60%;
+        margin-bottom: 19px; 
+       }
+    .menu input[type="submit"] {
+        border: none;
+        outline: none;
+        height: 30px;
+        color: #000;
+        background: rgba(255, 255, 255, 0.808);
+        border-radius: 20px;
+        transition: 0.2s;
+       }
+       
+       .menu input[type="submit"]:hover {
+        cursor: pointer;
+        background-color: rgb(255, 0, 0);
+        transition: 0.2s;
+       }
+       
+       .menu a {
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 20px;
+        color: #1b1b1b;
+        transition: 0.2s;
+       }
+       .menu input {
+        width: 70%;
+        margin-bottom: 19px; 
+       }
+           .sair input[type="submit"] {
+        border: none;
+        outline: none;
+        height: 30px;
+        color: #000;
+        background: rgba(255, 0, 0, 0.808);
+        border-radius: 20px;
+        transition: 0.2s;
+       }
+     
